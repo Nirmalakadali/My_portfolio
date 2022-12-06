@@ -1,26 +1,27 @@
-import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 import { Appwrap,MotionWrap} from '../../wrapper';
-import { urlFor, client } from '../../client';
 import './Skills.scss';
+import { images } from '../../constants';
+const skills = [
+  { title: 'mysql', imgUrl: images.mysql },
+  { title: 'ps', imgUrl: images.ps },
+  { title: 'python', imgUrl: images.python },
+  { title: 'html', imgUrl: images.html },
+  { title: 'cpp', imgUrl: images.cpp },
+  { title: 'css', imgUrl: images.css },
+  { title: 'react', imgUrl: images.react },
+  { title: 'bash', imgUrl: images.bash },
+  { title: 'javascript', imgUrl: images.javascript },
+  { title: 'git', imgUrl: images.git },
 
+
+];
 const Skills = () => {
-  const [skills, setSkills] = useState([]);
-
-  useEffect(() => {
-    const skillsQuery = '*[_type == "skills"]';
-
-    
-
-    client.fetch(skillsQuery).then((data) => {
-      setSkills(data);
-    });
-  }, []);
 
   return (
     <>
-      <h2 className="head-text">Skills & Experiences</h2>
+      <h2 className="head-text">Skills </h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -33,11 +34,11 @@ const Skills = () => {
             >
               <div
                 className="app__flex"
-                style={{ backgroundColor: skill.bgColor }}
+               
               >
-                <img src={urlFor(skill.icon)} alt={skill.name} />
+                <img src={skill.imgUrl} alt={skill.title} />
               </div>
-              <p className="p-text">{skill.name}</p>
+              <p className="p-text">{skill.title}</p>
             </motion.div>
           ))}
         </motion.div>

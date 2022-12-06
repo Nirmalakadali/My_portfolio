@@ -8,7 +8,7 @@ const SocialMedia = () => {
        <a href="https://twitter.com/nirmala_kadali">< BsTwitter/></a>
     </div>
     <div>
-        <a href=""><FaFacebookF/></a>
+        <a href="https://www.facebook.com"><FaFacebookF/></a>
     </div>
     <div>
         <a href="https://www.instagram.com/its_mee_i/"><BsInstagram/></a>

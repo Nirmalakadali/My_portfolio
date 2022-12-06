@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 import { images } from '../../constants';
 import { Appwrap, MotionWrap } from '../../wrapper';
-import { client } from '../../client';
 import './Footer.scss';
 
 const Footer = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  // eslint-disable-next-line 
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -19,7 +19,7 @@ const Footer = () => {
 
   const handleSubmit = () => {
     setLoading(true);
-
+     // eslint-disable-next-line 
     const contact = {
       _type: 'contact',
       name: formData.username,
@@ -27,17 +27,17 @@ const Footer = () => {
       message: formData.message,
     };
 
-    client.create(contact)
-      .then(() => {
-        setLoading(false);
-        setIsFormSubmitted(true);
-      })
-      .catch((err) => console.log(err));
+    // client.create(contact)
+    //   .then(() => {
+    //     setLoading(false);
+    //     setIsFormSubmitted(true);
+    //   })
+    //   .catch((err) => console.log(err));
   };
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Do you want to contact me?</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
@@ -66,15 +66,23 @@ const Footer = () => {
               onChange={handleChangeInput}
             />
           </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
+          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Thankyou we will get into touch once i will implement backend'}</button>
+         
         </div>
+        
       ) : (
         <div>
           <h3 className="head-text">
             Thank you for getting in touch!
           </h3>
+          
         </div>
+        
       )}
+       <div className='copyright'>
+                <p className='p-text'>since 2022@Nirmala</p>
+                <p className='p-text'>All rights reserved</p>
+            </div>
     </>
   );
 };

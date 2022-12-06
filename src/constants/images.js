@@ -24,11 +24,13 @@ import programmer from '../assets/programmer.gif';
 import front_end from '../assets/front_end.gif';
 import presentation from '../assets/presentation.gif';
 import explore from '../assets/explore.gif';
-
+import mysql from '../assets/mysql.png';
+import bash from '../assets/bash.png';
+import ardunio from '../assets/Ardunio.jpg';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-
+import ps from '../assets/ps.png';
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
 import asus from '../assets/asus.png';
@@ -36,7 +38,10 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-
+import airpollution from '../assets/ESW_Project.gif';
+import terminal from '../assets/terminal.gif';
+import kernel from '../assets/kernel.gif';
+// eslint-disable-next-line
 export default {
   email,
   mobile,
@@ -46,15 +51,22 @@ export default {
   figma,
   flutter,
   git,
+  ardunio,
+  terminal,
+  kernel,
   graphql,
   html,
+  bash,
+  ps,
   javascript,
+  airpollution,
   mu5,
   node,
   python,
   react,
   redux,
   sass,
+  mysql,
   iiithlogo,
   music,
   vscode,
