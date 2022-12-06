@@ -120,12 +120,16 @@
       cursor: pointer;
   
       &:hover {
-        transform: scale(1.5);
+        transform: scale(1);
         background-color: #2430af;
       }
     }
   
     @media screen and (max-width: 768px) {
+      width: 100%;
+      margin: 1rem 0;
+    }
+    @media screen and (min-width: 268px) {
       width: 100%;
       margin: 1rem 0;
     }
