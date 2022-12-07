@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nirmalakadali/static/css/main.936d1220.css",
-    "main.js": "/Nirmalakadali/static/js/main.f2b3c1d3.js",
+    "main.css": "/Nirmalakadali/static/css/main.c35f25c6.css",
+    "main.js": "/Nirmalakadali/static/js/main.cb7b0c50.js",
     "static/media/ESW_Project.gif": "/Nirmalakadali/static/media/ESW_Project.94558bdb7d2defa0d1b6.gif",
     "static/media/programmer.gif": "/Nirmalakadali/static/media/programmer.1cab58c54afbd9f60e34.gif",
     "static/media/explore.gif": "/Nirmalakadali/static/media/explore.9c3336a2949c4bbaa79d.gif",
@@ -38,11 +38,11 @@
     "static/media/skype.png": "/Nirmalakadali/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/Nirmalakadali/index.html",
     "static/media/circle.svg": "/Nirmalakadali/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.936d1220.css.map": "/Nirmalakadali/static/css/main.936d1220.css.map",
-    "main.f2b3c1d3.js.map": "/Nirmalakadali/static/js/main.f2b3c1d3.js.map"
+    "main.c35f25c6.css.map": "/Nirmalakadali/static/css/main.c35f25c6.css.map",
+    "main.cb7b0c50.js.map": "/Nirmalakadali/static/js/main.cb7b0c50.js.map"
   },
   "entrypoints": [
-    "static/css/main.936d1220.css",
-    "static/js/main.f2b3c1d3.js"
+    "static/css/main.c35f25c6.css",
+    "static/js/main.cb7b0c50.js"
   ]
 }
