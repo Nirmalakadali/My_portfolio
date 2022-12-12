@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/Nirmalakadali/static/css/main.d55f6949.css",
-    "main.js": "/Nirmalakadali/static/js/main.0a3fc688.js",
+    "main.css": "/Nirmalakadali/static/css/main.68028b76.css",
+    "main.js": "/Nirmalakadali/static/js/main.d0ccc6d7.js",
+    "static/media/iot.gif": "/Nirmalakadali/static/media/iot.d491ea2e4141405da584.gif",
+    "static/media/desktop.gif": "/Nirmalakadali/static/media/desktop.f44779e46f13bb2f2ea0.gif",
     "static/media/ESW_Project.gif": "/Nirmalakadali/static/media/ESW_Project.94558bdb7d2defa0d1b6.gif",
+    "static/media/database.gif": "/Nirmalakadali/static/media/database.f234fbff0c1fac09c859.gif",
     "static/media/programmer.gif": "/Nirmalakadali/static/media/programmer.1cab58c54afbd9f60e34.gif",
     "static/media/explore.gif": "/Nirmalakadali/static/media/explore.9c3336a2949c4bbaa79d.gif",
     "static/media/presentation.gif": "/Nirmalakadali/static/media/presentation.eae3e91ccf4acff51b7c.gif",
@@ -21,6 +24,7 @@
     "static/media/adidas.png": "/Nirmalakadali/static/media/adidas.83df8153294f9137d308.png",
     "static/media/terminal.gif": "/Nirmalakadali/static/media/terminal.f1f6ce84f9e0d2df22c6.gif",
     "static/media/bash.png": "/Nirmalakadali/static/media/bash.3c42e20a32337e1ca212.png",
+    "static/media/giphy.gif": "/Nirmalakadali/static/media/giphy.f347561e38424748d93c.gif",
     "static/media/bolt.png": "/Nirmalakadali/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/Nirmalakadali/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/Nirmalakadali/static/media/sass.36e863bfbcb25c109d00.png",
@@ -38,11 +42,11 @@
     "static/media/skype.png": "/Nirmalakadali/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/Nirmalakadali/index.html",
     "static/media/circle.svg": "/Nirmalakadali/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.d55f6949.css.map": "/Nirmalakadali/static/css/main.d55f6949.css.map",
-    "main.0a3fc688.js.map": "/Nirmalakadali/static/js/main.0a3fc688.js.map"
+    "main.68028b76.css.map": "/Nirmalakadali/static/css/main.68028b76.css.map",
+    "main.d0ccc6d7.js.map": "/Nirmalakadali/static/js/main.d0ccc6d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d55f6949.css",
-    "static/js/main.0a3fc688.js"
+    "static/css/main.68028b76.css",
+    "static/js/main.d0ccc6d7.js"
   ]
 }
