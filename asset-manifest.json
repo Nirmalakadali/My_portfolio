@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/Nirmalakadali/static/css/main.c35f25c6.css",
-    "main.js": "/Nirmalakadali/static/js/main.5f43e54b.js",
+    "main.js": "/Nirmalakadali/static/js/main.bbebca52.js",
+    "static/media/iot.gif": "/Nirmalakadali/static/media/iot.5ebfff6f24186edb5b0c.gif",
+    "static/media/desktop.gif": "/Nirmalakadali/static/media/desktop.76f2817d11eae2072b26.gif",
+    "static/media/databse.gif": "/Nirmalakadali/static/media/databse.d3412adf65b9a20331fe.gif",
     "static/media/ESW_Project.gif": "/Nirmalakadali/static/media/ESW_Project.94558bdb7d2defa0d1b6.gif",
     "static/media/programmer.gif": "/Nirmalakadali/static/media/programmer.1cab58c54afbd9f60e34.gif",
     "static/media/explore.gif": "/Nirmalakadali/static/media/explore.9c3336a2949c4bbaa79d.gif",
@@ -21,6 +24,7 @@
     "static/media/adidas.png": "/Nirmalakadali/static/media/adidas.83df8153294f9137d308.png",
     "static/media/terminal.gif": "/Nirmalakadali/static/media/terminal.f1f6ce84f9e0d2df22c6.gif",
     "static/media/bash.png": "/Nirmalakadali/static/media/bash.3c42e20a32337e1ca212.png",
+    "static/media/giphy.gif": "/Nirmalakadali/static/media/giphy.f347561e38424748d93c.gif",
     "static/media/bolt.png": "/Nirmalakadali/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/Nirmalakadali/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/Nirmalakadali/static/media/sass.36e863bfbcb25c109d00.png",
@@ -39,10 +43,10 @@
     "index.html": "/Nirmalakadali/index.html",
     "static/media/circle.svg": "/Nirmalakadali/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.c35f25c6.css.map": "/Nirmalakadali/static/css/main.c35f25c6.css.map",
-    "main.5f43e54b.js.map": "/Nirmalakadali/static/js/main.5f43e54b.js.map"
+    "main.bbebca52.js.map": "/Nirmalakadali/static/js/main.bbebca52.js.map"
   },
   "entrypoints": [
     "static/css/main.c35f25c6.css",
-    "static/js/main.5f43e54b.js"
+    "static/js/main.bbebca52.js"
   ]
 }
