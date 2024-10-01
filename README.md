@@ -14,7 +14,7 @@
 
 - 📫 How to reach me:
     * [**Drop a Mail**](mailto:lakshminirmalakadali6@gmail.com)
-    * [**Connect via LinkedIn**](https://www.linkedin.com/in/nirmala-kadali-0a703727a/)
+    * [**Connect via LinkedIn**](https://www.linkedin.com/in/nirmala-kadali/)
     * [**Visit my Website**](https://nirmalakadali.github.io/Nirmalakadali/)
 
 
